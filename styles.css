@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&family=Source+Sans+Pro&display=swap');
+:root{
+    --primary-color: #9F86C0;
+    --dark-grey: #475569;
+    --light-grey: #f1f5f9;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    margin: 2rem 0rem;
+}
+/** containers**/
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+/**lists**/
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+/**nav**/
+.nav{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.nav .nav-brand{
+    font-weight: bold;
+}
+.nav .link{
+    color: white;
+}
+.nav .link-active{
+    font-weight: bold;
+}
+.nav .nav-items{
+    text-align: right;
+}
+/**header**/
+.header{
+    padding: 2rem;
+}
+.header .header-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.header .header-heading{
+    font-size: 2rem;
+    color: var(--dark-grey);
+    padding-left: 1rem;
+    text-align: center;
+}
+.header .header-heading .header-inverted{
+    color: var(--primary-color);
+}
+/**section**/
+.ow{
+    background-color: var(--light-grey);
+}
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    font-weight: bold;
+}
+.section-technologies{
+    font-weight: bold;
+}
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    text-align: center;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer-insider{
+    font-weight: bold;
+}
+.normal-link{
+    color: var(--primary-color);
+}
