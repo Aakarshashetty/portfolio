@@ -7,6 +7,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: large;
 }
 hr{
     margin: 2rem 0rem;
@@ -109,6 +110,12 @@ hr{
 }
 .footer-insider{
     font-weight: bold;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
 }
 .normal-link{
     color: var(--primary-color);
