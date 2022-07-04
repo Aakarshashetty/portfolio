@@ -3,11 +3,13 @@
     --primary-color: #9F86C0;
     --dark-grey: #475569;
     --light-grey: #f1f5f9;
+    --purple: #6247aa;
 
 }
 body {
     font-family: 'Roboto', sans-serif;
     font-size: large;
+    margin : 0px 350px;
 }
 hr{
     margin: 2rem 0rem;
@@ -119,4 +121,7 @@ hr{
 }
 .normal-link{
     color: var(--primary-color);
+}
+.purple{
+    color: var(--purple);
 }
