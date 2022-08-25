@@ -111,6 +111,14 @@ hr{
 }
 .footer .link{
     color: white;
+    border: 2px solid white;
+    margin: 0px 2px;
+    border-radius: 15rem;
+    padding: 0.5rem 0.7rem;
+}
+.footer .link:hover{
+    color: var(--primary-color);
+    background-color: white;
 }
 .footer ul{
     padding-inline-start: 0px;
