@@ -24,6 +24,19 @@ hr{
     max-width: 600px;
     margin: auto;
 }
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 700px;
+}
+.skills-container p{
+    margin: 5px;
+}
+ .section .technologies p{
+    text-align: left;
+}
 /**links**/
 .link{
     text-decoration: none;
